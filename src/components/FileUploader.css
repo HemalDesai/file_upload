@@ -1,0 +1,44 @@
+.dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .dropzone p {
+    font-size: 16px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: #666;
+  }
+  
+  .dropzone.active {
+    background-color: #f7f7f7;
+  }
+  
+  .dropzone.accept {
+    border-color: #00c853;
+  }
+  
+  .dropzone.reject {
+    border-color: #ff1744;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  

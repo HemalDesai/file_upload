@@ -20,6 +20,20 @@
     background-color: #E0FFFF;
     overflow-y: scroll;
   }
+
+  .reply{
+    background-color: #007FFF;
+    color: #F5F5F5;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+    /* height: 20px; */
+    float: left;
+    /* align-self: flex-end; */
+    padding: 10px;
+    /* margin-bottom: 10px; */
+  }
   
   .message {
     background-color: #007FFF;
@@ -27,7 +41,7 @@
     border-radius: 5px;
 
     width: 50%;
-    float: left;
+    float: right;
     align-self: flex-end;
     padding: 10px;
     margin-bottom: 10px;
@@ -85,3 +99,4 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #576CBC; 
   }
+

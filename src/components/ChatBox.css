@@ -1,12 +1,23 @@
 .chatbox-container {
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: 30px;
+    margin-right: 20px;
+    background-color: #E0FFFF;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    
   }
   
   .messages-container {
     border: 1px solid #ccc;
     padding: 10px;
     height: 450px;
+    background-color: #E0FFFF;
     overflow-y: scroll;
   }
   
@@ -14,8 +25,9 @@
     background-color: #007FFF;
     color: #F5F5F5;
     border-radius: 5px;
+
     width: 50%;
-    float: right;
+    float: left;
     align-self: flex-end;
     padding: 10px;
     margin-bottom: 10px;
@@ -23,15 +35,17 @@
   
   form {
     display: flex;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    
   }
   
   input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
+    background-color: #E0FFFF;
     border-radius: 5px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     
   }
   
@@ -49,6 +63,25 @@
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #0B2447;
   }
   
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #E0FFFF; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B0DAFF; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #576CBC; 
+  }

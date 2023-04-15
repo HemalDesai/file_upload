@@ -1,6 +1,7 @@
 .dropzone {
     border: 2px dashed #ccc;
     border-radius: 10px;
+    background-color: #E0FFFF;
     padding: 20px;
     text-align: center;
     margin-bottom: 15px;
@@ -25,8 +26,8 @@
     border-color: #ff1744;
   }
   
-  button {
-    background-color: #4CAF50;
+  .fbutton {
+    background-color: #007FFF;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -38,7 +39,7 @@
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #3e8e41;
+  .fbutton:hover {
+    background-color: #0B2447;
   }
   

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Dropzone from 'react-dropzone';
-import axios from 'axios';
 import './FileUploader.css';
 
 const FileUploader = () => {
@@ -33,7 +32,7 @@ const FileUploader = () => {
         )}
       </Dropzone>
       {file && <p>Selected file: {file.name}</p>}
-      <button onClick={handleSubmit}>Upload</button>
+      <button className='fbutton' onClick={handleSubmit}>Upload</button>
     </div>
   );
 };
